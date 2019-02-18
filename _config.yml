@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "RoboGarnt"
+title                    : "Flailing Forward"
 title_separator          : "-"
 name                     : "Grant Moe"
-description              : "A blog about building robots and things."
+description              : "Featuring naive design, outsider engineering, cargo-cult coding, and all manner of trial and error."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -108,8 +108,8 @@ analytics:
 author:
   name             : "Grant Moe"
   avatar           : "/assets/images/bio-photo.png"
-  bio              : "I am an amazing person."
-  location         : "SoCal"
+  bio              : "Cargo Cultist"
+  location         : 
   email            :
   links:
     - label: "Email"
