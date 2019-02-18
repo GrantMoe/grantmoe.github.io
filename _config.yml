@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Grant Moe"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.png"
   bio              : "I am an amazing person."
   location         : "SoCal"
   email            :
