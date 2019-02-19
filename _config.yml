@@ -109,8 +109,8 @@ author:
   name             : "Grant Moe"
   avatar           : "/assets/images/bio-photo.png"
   bio              : "Flailing Forward"
-  location         : 
-  email            :
+  location         : "Los Angeles, CA"
+  email            : "Grant@GrantMoe.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
