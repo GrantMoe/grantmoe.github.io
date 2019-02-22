@@ -4,7 +4,10 @@ excerpt_separator: "<!--more-->"
 categories:
   - Other
 tags:
-  - Hello World
+  - project
+  - film
+  - cad
+  - cnc
 ---
 
 Greetings and welcome!
