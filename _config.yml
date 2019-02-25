@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Flailing Forward"
+title                    : "Beep Boop"
 title_separator          : "-"
 name                     : "Grant Moe"
 description              : "Personal blog featuring naive design, outsider engineering, cargo-cult coding, and mad science. Trial and error."
@@ -108,13 +108,13 @@ analytics:
 author:
   name             : "Grant Moe"
   avatar           : "/assets/images/bio-photo.png"
-  bio              : "Cargo Cultist"
-  location         : 
-  email            :
+  bio              : "Flailing Forward"
+  location         : "Los Angeles, CA"
+  email            : # "Grant@GrantMoe.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:Grant@grantmoe.com
+      url: mailto:Grant@GrantMoe.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
