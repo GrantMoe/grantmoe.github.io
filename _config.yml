@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Grant Moe"
   avatar           : "/assets/images/bio-photo.png"
-  bio              : "Flailing Forward"
+  bio              : "Aspiring mad scientist."
   location         : "Los Angeles, CA"
   email            : # "Grant@GrantMoe.com"
   links:
@@ -126,10 +126,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/GrantMoe"
+      url: "https://github.com/GrantMoe"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/grantmoe"
+      url: "https://instagram.com/grantmoe"
 
 # Site Footer
 footer:
