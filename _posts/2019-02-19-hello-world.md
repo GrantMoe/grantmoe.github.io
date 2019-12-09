@@ -20,7 +20,3 @@ Ongoing projects:
   * My first robot
   * Lightweight guitar speaker cabinet
   * Mutant Space Barbie movie set/lighting
-  * Mastering Python
-
-
-More to come!
