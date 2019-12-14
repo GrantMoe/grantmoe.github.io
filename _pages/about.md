@@ -3,4 +3,6 @@ permalink: /about/
 title: "About"
 ---
 
-This page tells you a little about me
+Grant like robots and brains
+
+For his college entrance essay, he chose to write about LEGO spaceships.
