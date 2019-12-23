@@ -15,5 +15,4 @@ header:
 - Chassis construction in progress
 
 ### TODO
-- Finish stuffing robo-innards into control box
 - Build frame to mount camera, sensors
