@@ -2,8 +2,8 @@
 title: "Robot"
 excerpt: "Autonomous driver WIP"
 header:
-  image: /assets/images/robot-image.jpg
-  teaser: /assets/images/robot-image.jpg
+  image: /assets/images/robot-image-large.jpg
+  teaser: /assets/images/robot-image-thumb.jpg
 ---
 ## Robot v1
 
