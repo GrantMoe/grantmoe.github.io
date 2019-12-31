@@ -3,6 +3,6 @@ permalink: /about/
 title: "About"
 ---
 
-Grant like robots and brains
+Grant like robots and brains and metacognition and self improvement
 
-For his college application essay, he chose to write about LEGO spaceships.
+Currently, he's working on improving his Python
