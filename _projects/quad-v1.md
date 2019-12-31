@@ -1,12 +1,10 @@
 ---
-title: "Quadcopter"
-excerpt: "Designing a quadcopter from scratch!"
+title: "Quad v1"
+excerpt: "Custom quadcopter from scratch"
 header:
   image: /assets/images/quad-image.png
   teaser: /assets/images/quad-image.png
 ---
-## Quadcopter v1
-
 ### Overview
 - Evolution of a project intended to spray insulation foam under rafters (don't ask)
 - First-ever experience with multirotors
