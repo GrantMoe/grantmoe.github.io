@@ -1,8 +1,14 @@
 ---
 permalink: /about/
 title: "About"
----
+--- 
 
-Grant like robots and brains and metacognition and self improvement
+Grant grew up on Battle Bots, the DARPA Grand Challenge, and LEGO spaceships
 
-Currently, he's working on improving his Python
+He founded UV Irvine's first RoboCup Rescue Robotics Challenge team, which sparked the creation of the UC Irvine Robotics Invitational
+
+He then went and got a retail job
+
+Recently, he's been doing some freelance/contract electronics assembly and brushing up on Python in hopes of building some robot cars and hopping industries
+
+He actually enjoys debugging
