@@ -2,16 +2,28 @@
 title: "Modded FlySky FS-i6"
 excerpt: "Custom enclosure and hall effect gimbals"
 header:
-  image: /assets/images/tx-image-large.jpg
-  teaser: /assets/images/tx-image-thumb.jpg
+  # image: /assets/images/tx/tx-image-large.jpg
+  teaser: /assets/images/tx/tx-image-thumb.jpg
+gallery:
+ - url: /assets/images/tx/tx-front-01.jpeg
+   image_path: /assets/images/tx/tx-front-01-th.jpeg
+   alt: "transmitter front"
+   title: "Transmitter"
+ - url: /assets/images/tx/tx-template-01.jpeg
+   image_path: /assets/images/tx/tx-template-01-th.jpeg
+   alt: "paper template taped to carboard box"
+   title: "Template"
+ - url: /assets/images/tx/tx-guts-01.jpeg
+   image_path: /assets/images/tx/tx-guts-01-th.jpeg
+   alt: "PCBs inside carboard box"
+   title: "Guts"
+ - url: /assets/images/tx/tx-back-01.jpeg
+   image_path: /assets/images/tx/tx-back-01-th.jpeg
+   alt: "battery taped to carboard box"
+   title: "Battery Holder"
 ---
-### Overview
-- I needed a transmitter for the quadcopter project, and FS-i6 internals were the cheapest option on Ebay.
-- I added Frsky hall-effect sensors because I bought into the hype.
-
-### Status
-- Fully funcitonal!
-
-### TODO
-- Redo enclosure (3d print or thermoform)
-- Upgrade firmware
+{% include figure image_path="/assets/images/tx/tx-front-01.jpeg" alt="cardboard quadcopter transmitter" caption="A thing of beauty." %}
+### FlySky FS-i6 guts, Frsky hall-effect gymbals. A cardboard box.
+{% include gallery %}
+TODO
+- Print or thermoform a sturdier case
