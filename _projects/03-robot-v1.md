@@ -1,6 +1,6 @@
 ---
-title: "Robot v1"
-excerpt: "W.I.P. Indefinitely"
+title: "Rock Crawler Bot"
+excerpt: "Autonomy at 1/8 Scale"
 header:
   teaser: /assets/images/crawlbot/robo-platform-01-th.jpeg
 gallery:
@@ -27,8 +27,9 @@ gallery:
 classes: wide
 ---
 {% include video id="cdBuQvcAnks" provider="youtube" %}
-### Intended successor to our RoboCup Rescue bots. Far more capable, far more gigantic. On hold.
+### 1/8 Scale Rock Crawler + Project Box + VEX Robotics Platforms
+* Beefier version of my RoboCup Rescue Robotics team's swarm bots<br/>
+* Intended for rough terrain
 {% include gallery %}
 TODO
-- Work on something smaller
-- Add LIDAR
+- On hold
