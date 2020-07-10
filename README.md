@@ -1,5 +1,3 @@
 # grantmoe.github.io
 
-I intend this to be a blog that goes into greater depth than is possible with other social media platforms.
-
-We'll see how it evolves. :)
+Repository for [my personal site](https://www.grantmoe.com "My page"), a place to post my projects and maybe write about them.
