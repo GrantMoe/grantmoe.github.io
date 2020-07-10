@@ -7,6 +7,6 @@ tags:
   - Projects
 ---
 
-I have added pictures to and cut words from my current project pages.
+My [project pages]({% link projects-archive.md %}) now have more pictures and fewer words.
 
-Soon there will be more project(s).
+Thus, they are better.
