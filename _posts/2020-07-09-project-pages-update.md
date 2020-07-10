@@ -1,0 +1,12 @@
+---
+title: "Project page improvements"
+excerpt_separator: "<!--more-->"
+categories:
+  - Update
+tags:
+  - Projects
+---
+
+I have added pictures to and cut words from my current project pages.
+
+Soon there will be more project(s).
