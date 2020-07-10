@@ -2,7 +2,6 @@
 title: "Quad v1"
 excerpt: "Flies, bounces, breaks"
 header:
-  <!-- image: /assets/images/quad/quad-image.png -->
   teaser: /assets/images/quad/quad-broke-02.jpeg
 gallery:
  - url: /assets/images/quad/quad-cad-01.jpeg
@@ -33,6 +32,7 @@ gallery:
    image_path: /assets/images/quad/quad-broke-02-th.jpeg
    alt: "Postflight "
    title: "Flight Two: Propellers still tend toward independent flight"
+classes: wide
 ---
 {% include figure image_path="/assets/images/quad/quad-broke-02.jpeg" alt="quadcopter" caption="3D: harder than 2D" %}
 ### Testbed for autonomous flying. On hold while I figure out autonomous driving.

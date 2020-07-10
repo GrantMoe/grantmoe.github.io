@@ -1,18 +1,34 @@
 ---
 title: "Robot v1"
-excerpt: "Endless work in progress"
+excerpt: "W.I.P. Indefinitely"
 header:
-  image: /assets/images/robot-image-large.jpg
-  teaser: /assets/images/robot-image-thumb.jpg
+  teaser: /assets/images/crawlbot/robo-platform-01-th.jpeg
+gallery:
+ - url: /assets/images/crawlbot/robo-early-01.jpeg
+   image_path: /assets/images/crawlbot/robo-early-01-th.jpeg
+   alt: "robot chassis"
+   title: "Early chassis rails"
+ - url: /assets/images/crawlbot/robo-platform-01.jpeg
+   image_path: /assets/images/crawlbot/robo-platform-01-th.jpeg
+   alt: "robot chassis"
+   title: "VEX platform(s) mounted"
+ - url: /assets/images/crawlbot/robo-supports-01.jpeg
+   image_path: /assets/images/crawlbot/robo-supports-01-th.jpeg
+   alt: "robot platform mount"
+   title: "Laser-cut chassis-VEX adapter"
+ - url: /assets/images/crawlbot/robo-supports-02.jpeg
+   image_path: /assets/images/crawlbot/robo-supports-02-th.jpeg
+   alt: "robot platform mount"
+   title: "Laser-cut chassis-VEX adapter"
+ - url: /assets/images/crawlbot/robo-rails-01.jpeg
+   image_path: /assets/images/crawlbot/robo-rails-01-th.jpeg
+   alt: "robot chassis"
+   title: "Chassis rails and messy wiring"
+classes: wide
 ---
-
-
-### Overview
-- A robot to explore autonomous behavior(s), SLAM, machine learning, etc
-- Built on a 1/8th scale RC rock crawler chassis
-
-### Status
-- Chassis construction in progress
-
-### TODO
-- Build frame to mount camera, sensors
+{% include video id="cdBuQvcAnks" provider="youtube" %}
+### Intended successor to our RoboCup Rescue bots. Far more capable, far more gigantic. On hold.
+{% include gallery %}
+TODO
+- Work on something smaller
+- Add LIDAR
