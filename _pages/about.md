@@ -5,7 +5,7 @@ title: "About"
 
 Grant grew up on Battle Bots, the DARPA Grand Challenge, and LEGO spaceships
 
-He founded UV Irvine's first RoboCup Rescue Robotics Challenge team, which sparked the creation of the UC Irvine Robotics Invitational
+He founded UC Irvine's first RoboCup Rescue Robotics Challenge team, which sparked the creation of the UC Irvine Robotics Invitational
 
 He then went and got a retail job
 
