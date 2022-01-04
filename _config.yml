@@ -9,7 +9,7 @@
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# baseurl: ''
+# baseurl:               '/hydejack-starter-kit'
 
 
 # General settings
@@ -17,81 +17,82 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang: en
+lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title: Grant Moe
+title: Grant Moe #                Hydejack
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
-description: Projects and Whatnot
+description:           >
+  Grant is a guy who likes coding, robots, and building things with his
+  hands.
 
 # A shorter description for the sidebar.
-tagline: Stuff and Things
+tagline: Things What I Am Doing #              Change `tagline` in `_config.yml`
 
 # A list of keywords for your blog
-keywords: []
+keywords:              []
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: /assets/img/logo.jpg
+logo:                  /assets/img/logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name: Grant Moe
-  email: grant@grantmoe.com
-
+  name: Grant Moe #               <firstname> <lastname>
+  email: grant@grantmoe.com #              <mail@domain.tld>
   # # Used by `jekyll-seo-tag`:
-  twitter: GrantEMoe
-  social:
-    github: GrantMoe
-    twitter: GrantEMoe
-    linkedin: grantmoe
+  # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
-    url:               /about/
+  # - title:             Blog
+    # url:               /blog/
+  - title:             Projects
+    url:               /projects/
+  - title: About
+    url: /about/
+  # - title:             Résumé*
+    # url:               /resume/
+  # - title:             Documentation
+    # url:               /docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
-  # - title:             LICENSE
-  #   url:               /LICENSE/
-  # - title:             NOTICE
-  #   url:               /NOTICE/
-  # - title:             CHANGELOG
-  #   url:               /CHANGELOG/
+#   - title:             LICENSE
+#     url:               /LICENSE/
+#   - title:             NOTICE
+#     url:               /NOTICE/
+#   - title:             CHANGELOG
+#     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-# copyright:             © 2021. All rights reserved.
+#copyright:             © 2021. All rights reserved.
 
 # Format of the permalinks
-permalink:             /:categories/:title/
+permalink: /:categories/:title/ #            /blog/:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
-paginate_path:         /:num/
+paginate_path:         /blog/:num/
 
 
 # Theme
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9.1.5
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          none #/assets/img/sidebar-bg.jpg
+accent_image: none #         /assets/img/sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -132,6 +133,7 @@ defaults:
     values:
       sitemap:         false
 
+  # Don't include licenses in sitemap (feel free to delete)
   - scope:
       path:            licenses/
     values:
@@ -163,7 +165,7 @@ defaults:
         type:          WebPage
 
 kramdown:
-  math_engine:         katex
+  math_engine:         mathjax
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
@@ -262,10 +264,10 @@ hydejack:
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
   # seeing an old date. 
-  hide_dates: true
+  hide_dates: true #         false
 
   # TODO
-  hide_last_modified: true
+  hide_last_modified:  false
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
@@ -294,7 +296,7 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /:name/
+    permalink:         /blog/:name/
     output:            true
 
   featured_tags:
@@ -310,6 +312,8 @@ collections:
 # ----------------------------------------------------------------------------------------
 
 exclude:
+  - ./#jekyll-theme-hydejack/node_modules
+  - ./#jekyll-theme-hydejack/.git
   - .jekyll-cache
   - .sass-cache
   - '*.toml'
@@ -352,8 +356,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for twitter cards
-twitter:
-  username: GrantEMoe
+# twitter:
+#   username:            <username>
 
 # Used for facebook open graph
 # facebook:
@@ -362,11 +366,11 @@ twitter:
 #   admins:              <id>
 
 # Used on index and about sites
-social:
-  name: Grant Moe
-  links:
-    - https://twitter.com/GrantEMoe
-    - https://github.com/GrantMoe
+# social:
+#   name:                <firstname> <lastname>
+#   links:
+#     - https://twitter.com/<username>
+#     - https://github.com/<username>
 
 
 # Plugin Configs
@@ -395,6 +399,7 @@ compress_html:
 sass:
   style:               compressed
 
+
 # Jekyll Compose Defaults
 # ---------------------------------------------------------------------------------------
 
@@ -406,21 +411,21 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: none #/assets/img/sidebar-bg.jpg
+        path: /assets/img/sidebar-bg.jpg
     posts:
       layout: post
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: none #/assets/img/sidebar-bg.jpg
+        path: /assets/img/sidebar-bg.jpg
     projects:
       layout: project
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: none # /assets/img/sidebar-bg.jpg
+        path: /assets/img/sidebar-bg.jpg
       links:
         - title: Project Link
           url: https://example.com
