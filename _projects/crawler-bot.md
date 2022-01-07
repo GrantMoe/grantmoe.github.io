@@ -28,7 +28,7 @@ sitemap: false
 ## Overview
 This was conceived as a robot that could drive around on unprepared surfaces, specifically Aldrich Park at UC Irvine.
 
-I decided I absolutely needed HARD REALITME performance for a robot that maxes out at a brisk walking pace, so I adopted a [Parallax Propeller](https://www.parallax.com/propeller-1/) running C.
+I decided I absolutely needed HARD REALTIME performance for a robot that maxes out at a brisk walking pace, so I adopted a [Parallax Propeller](https://www.parallax.com/propeller-1/) running C.
 
 The [RoboPi](https://www.mikronauts.com/raspberry-pi/robopi/) robot controller provides an easy Raspberry Pi-compatible interface, servo-style connectors, power handling, voltage level shifting, and analog input. 
 

@@ -24,7 +24,7 @@ author1:
       2x: /assets/img/about-256x256.png #           https://placehold.it/256x256
 
   # Social media icons in sidebar
-  # Comment/uncommet to show/hide
+  # Comment/uncomment to show/hide
   # Rearrange to change the order in which they appear
   social:
     twitter: GrantEMoe #         <username>
