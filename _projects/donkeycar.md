@@ -7,7 +7,7 @@ description: >
 # date: 3 Jan 2022
 image: 
   path: /assets/img/projects/donkey-car-big.jpg
-  srcset: 
+  srcset:
     1500w: /assets/img/projects/donkey-car.jpg
     750w:  /assets/img/projects/donkey-car@0,5x.jpg
     375w:  /assets/img/projects/donkey-car@0,25x.jpg
@@ -24,7 +24,7 @@ sitemap: false
 ## Overview
 [Donkey Car](https://www.donkeycar.com/) is an open-source hardware platform and software framework for machine-learning based autonomous driving.
 
-This is my take on the basic platform, built with the laser cutter and Prusa printer at [CRASH Space](https://blog.crashspace.org/).
+This is my take on the basic platform, built with the [Epliog Desktop laser cutter](http://crashspace.pbworks.com/w/page/32200358/Laser) and [Prusa MK3S+ printer](https://www.prusa3d.com/category/original-prusa-i3-mk3s/) at [CRASH Space](https://blog.crashspace.org/).
 
 ## Components
 - Chassis: [Exceed RC Magnet Off Road Truck](https://www.nitrorcx.com/51c853-fireblue-24-ghz.html)
