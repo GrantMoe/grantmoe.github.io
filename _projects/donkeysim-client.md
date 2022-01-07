@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 'Donkey Sim Client'
-caption: Online racing recording/control
+caption: Online Racing Telemetry/Control
 description: >
   Python client that sends driving inputs from an XBox controller or a 
   self-driving neural network model. Records video and telemetry data 
