@@ -5,8 +5,8 @@ cover: true
 # sitemap: false
 selected_projects:
   - _projects/donkeycar.md
-  # - _projects/diy-quad.md
-  - _projects/cardboard-tx.md
+  - _projects/donkeysim-client.md
+  # - _projects/cardboard-tx.md
   # - _projects/crawler-bot.md
 projects_page: projects.md
 # featured: false
