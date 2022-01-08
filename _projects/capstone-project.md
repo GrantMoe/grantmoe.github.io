@@ -8,11 +8,11 @@ description: >
   of crashing.
 # date: 1 Jun 2020
 image: 
-  path: /assets/img/projects/capstone/colormaps_speed.png
+  path: /assets/img/projects/capstone/capstone-project.jpg
   srcset: 
-    1130w: /assets/img/projects/capstone/colormaps_speed.png
-    960w:  /assets/img/projects/capstone/colormaps_speed@0,5x.png
-    480w:  /assets/img/projects/capstone/colormaps_speed@0,25x.png
+    1920w: /assets/img/projects/capstone/capstone-project.jpg
+    960w:  /assets/img/projects/capstone/capstone-project@0,5x.jpg
+    480w:  /assets/img/projects/capstone/capstone-project@0,25x.jpg
 links:
   - title: Github
     url: https://github.com/GrantMoe/DSI-Capstone-Project
@@ -27,17 +27,12 @@ sitemap: false
 General Assembly Data Science Immersive capstone
 
 <span id = 'abstract'></span>
+
 ## Abstract
 In this project I attempted to train a neural network how to drive a race car around a simulated track. I used Keras to construct several neural network models, fit those models to manually-recorded telemetry data, then used said models to predict appropriate steering and throttle inputs based on real-time telemetry data. After my initial models’ performance plateaued at a suboptimal level, I adopted the basic structure of a pre-existing neural network model to establish a “competent” baseline performance. After considerable experimentation, I was able to get somewhat consistent performance out of slightly altered versions of that model. Nine models were able to complete more than one consecutive lap without crashing, though the limitations of my chosen test environment meant that they did so in a way that would not map well to real race cars. Thus, I intend to reframe my objectives, switch tracks, and continue the process.
 
 <span id = 'toc'></span>
-<!--- 
-    Sources:
-    https://github.com/Toemass-Moon/Gesture-Control/blob/main/README.md
-    https://towardsdatascience.com/how-to-write-a-scientific-paper-from-a-data-science-project-62d7101c9057 
-    https://www.abhith.net/blog/markdown-link-within-document/ 
 
--->
 ## Table of Contents
 <!-- 1. [Abstract](#abstract) <!-- Does this even belong on the table? It should probably go before...-->
 1. [Acknowledgements](#acknowledgements)
@@ -51,6 +46,7 @@ In this project I attempted to train a neural network how to drive a race car ar
 1. [References](#sources)
 
 <span id = 'acknowledgements'></span>
+
 ## Acknowledgements <!--- [^](#toc) -->
 
 * GA Crew ([Joseph Hicks](https://www.linkedin.com/in/joseph-w-hicks/), [Noah Christiensen](https://www.linkedin.com/in/noah-christiansen/), [Patrick Wales-Dinian](https://www.patrickwalesdinan.com/)) -  vital project feedback and guidance 
@@ -60,13 +56,15 @@ In this project I attempted to train a neural network how to drive a race car ar
 * [Thomaz Moon](https://www.linkedin.com/in/thomazmoon/) - shared example of what a good project looks like
 
 <span id = 'intro'></span>
-## Introduction <!--- [^](#toc) -->
+
+## Introduction <!-- [[^]](#toc) -->
 
 Autonomous automotive racing competitions range from amateurs and students with modified radio control cars<sup id = 't_1'>[[1]](#n_1)</sup><sup id = 't_2'>[[2]](#n_2)</sup> to university teams with mid-to-full scale race cars<sup id = 't_3'>[[3]](#n_3)</sup><sup id = 't_4'>[[4]](#n_4)</sup> to massively sponsored government and commercial competitions.<sup id = 't_5'>[[5]](#n_5)</sup> The DARPA Grand Challenge<sup id = 't_6'>[[6]](#n_6)</sup> ignited my interest in autonomous racing, and the desire to learn the inner workings of autonomy is part of what motivated me to enroll in the data science immersive course in the first place.
 
 For this project's hypothetical framework, I have cast myself as a member of a nascent self-driving race team. I have given myself the task of leveraging my machine learning experience to lay the groundwork for my team's autonomous control software.
 
 <span id = 'related'></span>
+
 ## Related Work  <!--- [^](#toc) -->
 An extensive summary of previous work in autonomous driving, which stretches back nearly a century,<sup id = 't_7'>[[7]](#n_7)</sup> will not be attempted here. Instead, I will cover the most relevant single source, Donkey Car.<sup id = 't_8'>[[8]](#n_8)</sup>
 
@@ -76,6 +74,7 @@ The Donkey Car project served as a direct inspiration for my capstone. Donkey Ca
 <sub>Figure 1: A Donkey Car (left) and the author's Donkey Car (right)</sub>
 
 <span id = 'methods'></span>
+
 ## Methodology  <!--- [^](#toc) -->
 
 ![Demo lap animated gif](/assets/img/projects/capstone/demo_lap.gif)  
@@ -88,6 +87,7 @@ After fitting, each model was saved, as was the scaler used on the data. Both we
 Many models were tried, each with different hyperparameters (including number of layers). Each model was given one or two pre-trials to determine if it was capable of completing a circuit of the track. Models that were able to complete more than one consecutive laps were deemed successful. Successful models were then each given five trial runs. Full telemetry data was recorded for each trial, and said data was used to evaluate model performance.
 
 <span id = 'experiments'></span>
+
 ## Experiments  <!--- [^](#toc) -->
 ### Data Description
 Three candidate datasets were collected, each with a different simulated camera resolution. The default 120x160 pixel image format was tried, but proved to be too computationally intensive for my computer. Several laps were then tried with 32x32 images, but the models produced with this data were not capable of the performance I desired. I settled on a 64x64 format and proceeded to drive for 150 laps. This process took over two hours, and resulted in 125,400 records. I pruned data based on the time taken to drive each lap; cutting laps that took more than 43 seconds nicely eliminated all outliers, and it resulted in a set of 115,052 records. 
@@ -108,6 +108,7 @@ All data collection and trials took place in the Donkey Gym simulated environmen
 Data preparation and modeling took place in a collection of Jupyter notebooks, primarily using Pandas, scikit-learn and Keras Python libraries.
 
 <span id = 'results'></span>
+
 ## Results  <!--- [^](#toc) -->
 
 190 models were constructed and pre-trialed. Models were given multiple pre-trials if they failed to complete a lap but demonstrated the potential to do so.
@@ -168,6 +169,7 @@ I had hoped to compare the Keras model metrics to on-track performance, but the 
 No model performed at the level required for real-world racing safety. With one exception, every lap driven by even the most successful models included at least one instance of high-speed contact with a wall. This would not be acceptable for a real car on an actual, physical track.
 
 <span id = 'discussion'></span>
+
 ## Discussion  <!--- [^](#toc) -->
 
 Behaviors emerge from an intelligent agent's interaction with its environment. In this case, the overspeeding and crash-happy driving demonstrated by my models resulted from my choice of track and simulator.
@@ -189,6 +191,7 @@ All successful models responded to impending collisions by angling themselves to
 If I wished to stay true to the full-scale race team scenario, I should have chosen a different simulator. If I wanted to use the Donkey Gym simulator, I could have reframed the project. As it was, time constraints made either course of action impossible.
 
 <span id = 'conclusion'></span>
+
 ## Conclusion  <!--- [^](#toc) -->
 
 The project had some negatives. By the time I recognized the error of some of my foundational choices, there wasn't enough time to start over. I also resorted to using a preexisting model, which is something I had hoped to avoid, and I ran out of time to switch back to my own. Also, my autonomous racing team would have failed.
@@ -198,6 +201,7 @@ On the other hand, I cannot overstate how much I enjoyed delving into how my mod
 Working on this project has left me in possession of a highly automated machine learning pipeline, and now that I am free of my imaginary full-scale racing team, I can employ it while using Donkey Gym as it was designed to be used. I intend to use the simulated Circuit Launch track to prepare for in-person competition on its real-world counterpart in Oakland.
 
 <span id = 'sources'></span>
+
 ## References  <!--- [^](#toc) -->
 
 <span id = 'n_1'></span>1. [**^**](#t_1) ["Autonomous cars for the rest of us"](https://diyrobocars.com/). *DIYRobocars*    
