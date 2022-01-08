@@ -31,7 +31,7 @@ Designing my own fuselage proved to be an excellent exercise in learning Onshape
 - Plates: [0.062" phenolic sheet (G-10)](https://amazon.com/gp/product/B0013HM0LQ/)
 - Foam: [1" foam board insulation](https://www.homedepot.com/p/Project-Panels-FOAMULAR-1-in-x-2-ft-x-2-ft-R-5-Small-Projects-Rigid-Pink-Foam-Board-Insulation-Sheathing-PP1/203553730)
 - FC/ESC: [Diatone Mamba F405 Mk2 F40 Mk2 3-6S 30x30 Stack/Combo](https://www.racedayquads.com/products/diatone-mamba-power-tower-f405-f40?variant=14190404239473) 
-- Camera: [Raspberry Pi Camera Module V2](https://amazon.com/gp/product/B01ER2SKF)
+- Camera: [Raspberry Pi Camera Module V2](https://www.raspberrypi.com/products/camera-module-v2/)
 - Brains: [Raspberry Pi Zero W](https://www.adafruit.com/product/3400)
 
 ## Status
