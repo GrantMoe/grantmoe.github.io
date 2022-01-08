@@ -2,6 +2,6 @@
 
 
 
-My site ([grantmoe.com](https://grantmoe.com)), recently switched templates, lacking my most recent projects.
+My site ([grantmoe.com](https://grantmoe.com)!
 
-Still neat.
+I think it's neat.
