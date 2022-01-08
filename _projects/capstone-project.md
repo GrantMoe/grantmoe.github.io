@@ -34,7 +34,7 @@ In this project I attempted to train a neural network how to drive a race car ar
 <span id = 'toc'></span>
 
 ## Table of Contents
-<!-- 1. [Abstract](#abstract) <!-- Does this even belong on the table? It should probably go before...-->
+
 1. [Acknowledgements](#acknowledgements)
 1. [Introduction](#intro)
 1. [Related Work](#related)
