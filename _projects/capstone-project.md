@@ -62,7 +62,7 @@ In this project I attempted to train a neural network how to drive a race car ar
 <span id = 'intro'></span>
 ## Introduction <!--- [^](#toc) -->
 
-Autonomous automotive racing competitions range from amateurs and students with modified radio control cars<sup id = 't_1'>[[1]](#n_1)</sup><sup id = 't_2'>[[2]](#n_2)</sup> to university teams with mid-to-full scale race cars<sup id = 't_3'>[3](#n_3)</sup><sup id = 't_4'>[[4]](#n_4)</sup> to massively sponsored government and commercial competitions.<sup id = 't_5'>[[5]](#n_5)</sup> The DARPA Grand Challenge<sup id = 't_6'>[[6]](#n_6)</sup> ignited my interest in autonomous racing, and the desire to learn the inner workings of autonomy is part of what motivated me to enroll in the data science immersive course in the first place.
+Autonomous automotive racing competitions range from amateurs and students with modified radio control cars<sup id = 't_1'>[[1]](#n_1)</sup><sup id = 't_2'>[[2]](#n_2)</sup> to university teams with mid-to-full scale race cars<sup id = 't_3'>[[3]](#n_3)</sup><sup id = 't_4'>[[4]](#n_4)</sup> to massively sponsored government and commercial competitions.<sup id = 't_5'>[[5]](#n_5)</sup> The DARPA Grand Challenge<sup id = 't_6'>[[6]](#n_6)</sup> ignited my interest in autonomous racing, and the desire to learn the inner workings of autonomy is part of what motivated me to enroll in the data science immersive course in the first place.
 
 For this project's hypothetical framework, I have cast myself as a member of a nascent self-driving race team. I have given myself the task of leveraging my machine learning experience to lay the groundwork for my team's autonomous control software.
 
