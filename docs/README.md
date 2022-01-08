@@ -2,6 +2,6 @@
 
 
 
-My site ([grantmoe.com](https://grantmoe.com)!
+My site ([grantmoe.com](https://grantmoe.com))!
 
 I think it's neat.
