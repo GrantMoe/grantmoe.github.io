@@ -8,7 +8,7 @@ description: >
   for training and posterity.
 # date: 1 Jun 2020
 image: 
-  path: /assets/img/projects/demo_lap.gif
+  path: /assets/img/projects/donkeysim-client.jpg
 #   srcset: 
 #     1920w: /assets/img/projects/project-title.jpg
 #     960w:  /assets/img/projects/project-title@0,5x.jpg
@@ -35,6 +35,7 @@ In doing so, I gained the ability to record telemetry data in formats other than
 * CSV for my [General Assembly Data Science Immersive capstone project](https://github.com/GrantMoe/DSI-Capstone-Project) - plugs straight into Pandas for easier data processing and modeling.
 * ASL format - used in my experiments with the [OpenVSLAM](https://github.com/OpenVSLAM-Community/openvslam) Visual Simultaneous Localization and Mapping framework.
 
-
 ## Status
-Functional and evolving as needed.
+![Mini-Monaco Demo Lap with Minimap](/assets/img/projects/donkeysim-monaco-lap.gif)  
+  
+Living, breathing, and evolving as needed.
