@@ -7,7 +7,7 @@ basics:
   label: "Data Scientist and Roboticist"
   picture: "assets/img/about-256x256.png"
   email: "grant@grantmoe.com"
-  phone: "(310) 462-7967"
+  # phone: "(310) 462-7967"
   website: "https://grantmoe.com"
   summary: >
     Grant wants to be a mad scientist and/or autonomous vehicle wrangler. 
@@ -16,12 +16,12 @@ basics:
     camp to  build foundational machine learning and neural network modeling 
     skills.
 
-    His non-work interests range wildly, but most involve tinkering and working
+    His non-work interests range wildly but mostly involve tinkering and working
     with his hands, whether it's using CAD to design tools for use around the
     house or building custom guitar amplifiers.
   location:
-    address: "6145 W 77th St"
-    postalCode: "CA 90045"
+    # address: "6145 W 77th St"
+    # postalCode: "CA 90045"
     city: "Los Angeles"
     countryCode: "US"
     region: "California"
@@ -38,67 +38,106 @@ basics:
     - network: "Twitter"
       username: "GrantEMoe"
       url: "https://twitter.com/GrantEMoe"
-
-
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "Freelance"
+    position: "Electronics Fabricator and Creative Technologist"
+    startDate: "2018-10-01"
     endDate: ""
+    highlights:
+      - "Worked as a contractor for VTProDesign on projects including OpenPath (acquired by Motorola) keyless entry systems and lighting for Britney Spears The Zone 30,000 sq ft installation in LA (featured in The New York Times, CNN, and Forbes)"
+      - "Manufactured OpenPath (acquired by Motorola) keyless entry demo units."
+
+  - company: "Barnes & Noble"
+    position: "Bookseller/Shipper/Receiver"
+    startDate: "2015-08-01"
+    endDate: "2018-10-01"
+    # summary: >
+      # "As a bookseller, greeted and established rapport with customers, identified their needs, and gave recommendations, ordering product as necessary. As a shipper/receiver, worked (often solo) in the stock room to keep the product moving on and off the floor."
+    highlights:
+    - "Tracked inventory and managed stock"
+    - "Processed and documented all incoming and outgoing shipments"
+    - "Boosted product sorting efficiency by optimizing stockroom layout"
+  - company: "Cognitive Anteater Robotics"
+    position: "Volunteer Lab Assistant"
+    website: "https://www.socsci.uci.edu/~jkrichma/CARL/"
+    startDate: "2013-06-01"
+    endDate: "2013-09-01"
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      "In the Cognitive Anteater Robotics Laboratory (CARL) at the University of California, Irvine, we are designing robotic systems whose behaviors are guided by large-scale simulations of the mammalian brain. Because these simulated nervous systems are embodied on a robot, they provide a powerful tool for studying brain function."
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      - "Developed control and telemetry software for an autonomous Android robot"
+      - "Created a custom C++ Robot Operating System (ROS) module linking Galaxy S3 robot brain to Ubuntu laptop over peer-to-peer UDP socket"
+      - "Used ROS to build a graphical user interface and to implement RatSLAM, a biologically-inspired simultaneous localization and mapping algorithm based on rodent hippocampi."
 volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+  - organization: "CRASH Space"
+    position: "Board Member"
+    website: "https://blog.crashspace.org/"
+    startDate: "2020-08-01"
+    endDate: ""
+    summary: "CRASH Space non-profit organization located in Los Angeles and run by volunteers. It is a part of the growing global hackerspace movement. We are a collection of hackers, programmers, builders, makers, and artists. We promote science, technology, engineering, arts, and mathematics (STEAM) by teaching classes, participating in events, providing on-line resources, and by running a shared workshop. Our members use the space to work on their projects, share ideas, and help each other create whatever they envision."
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "Hosts monthly robotics and neuroscience interest groups"
+  - organization: "DIY Robocars Los Angeles"
+    position: "Organizer"
+    website: "https://www.meetup.com/DIY-Robocars-Los-Angeles/"
+    startDate: "2021-03-05"
+    endDate: ""
+    summary: "This is the Los Angeles event companion to the DIY Robocars site, which is for people who want to make and race DIY autonomous cars of any size, from tiny 16th scale to full-size (we don’t include go-karts, yet). Meetups are opportunities to hack, compete, and show and tell. Meetups will typically be in a space where 1/10 cars can be run indoors and/or have nearby parking lots where 1/10th scale self-driving cars (and go-karts in the future) can be raced or just tested in driverless mode."
+    highlights:
+      - "Coordinates and plans meetups for group of 88 DIY autonomous racing enthusiasts"
+
 education:
+  - institution: "General Assembly Remote Data Science Immersive"
+    area: "Data Science"
+    # studyType: "Data Science"
+    # minor: "Information and Computer Science"
+    # awardDate: "2013-06-10"
+    startDate: "2021-08-01"
+    endDate: "2021-12-01"
+    courses:
+      - "12-week full-time immersive educational program strengthening Data Science skills including: Python, SQL, data cleaning, data visualization, regression models, classification models, web-scraping, APIs, NLP, advanced supervised learning, unsupervised learning, time series analysis, and statistics."
   - institution: "University of California, Irvine"
     area: "Psychology"
     studyType: "BA"
     minor: "Information and Computer Science"
     awardDate: "2013-06-10"
     # startDate: ""
-    # endDate: "2013-06-01"
-    # gpa: "4.0"
-    # courses:
-      # - "DB1101 - Basic SQL"
-      # - "CS2011 - Java Introduction"
+    # endDate: ""
+    courses:
+      - "Founded UC Irvine RoboCup Rescue Robotics Team, successfully gaining admission to the RoboCup 2013 World Championship in Eindhoven, the Netherlands. Organized and led undergraduate research teams for both the Undergraduate Research Opportunities Program and the UCI Multidisciplinary Design Program. Research fellow for Summer Undergraduate Research Program project."
+  - institution: "IEEE-RAS Safety Security and Rescue Robotics Summer School - Alanya, Turkey"
+    awardDate: "2012-09-01"
+    # startDate: ""
+    # endDate: ""
+    courses:
+      - "Participated in a group project to leverage supervised machine learning to the computer vision task of classifying terrain in urban disaster environments. Worked alongside professionals and academics in the fields of robotics, computer science, and search and rescue. Hosted by the Robotics and Automation Society professional society of the Institute of Electrical and Electronics Engineers."
+
 awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+  - title: "Research Fellowship"
+    years: "2012 - 2013"
+    # date: "2013-01-01"
+    awarder: "UC Irvine Undergraduate Research Opportunities Program"
+    summary: "Biologically-Inspired Robot Swarms for Search and Rescue Missions"
+  - title: "Summer Research Fellowship"
+    years: "2012"
+    # date: "2012-06-01"
+    awarder: "UC Irvine Undergraduate Research Opportunities Program"
+    summary: "Survey of Robot Designs and Control for RoboCup Rescue Robot League"
 skills:
-  - name: "Web Development"
-    level: "Master"
-    keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
-    keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+  - name: "Python"
+    level: "Intermediate"
+    # keywords:
+    #   - "HTML"
+    #   - "CSS"
+    #   - "Javascript"
+  - name: "C++"
+    level: "Amateur"
+    # keywords:
+      # - "Mpeg"
+      # - "MP4"
+      # - "GIF"
+  - name: "Machine Learning"
+    level: "Amateur"
 languages:
   - language: "English"
     fluency: "Native speaker"
@@ -107,12 +146,13 @@ languages:
   - language: "Norwegian"
     fluency: "Elementary proficiency"
 interests:
-  - name: "Wildlife"
+  - name: "Making"
     keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+      - "Arduino"
+      - "DIY Robocars"
+      - "Guitar Amps"
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#       Company proved that he will be a valuable addition to any company.
