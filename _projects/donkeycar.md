@@ -36,3 +36,9 @@ This is my take on the basic platform, built with the [Epliog Desktop laser cutt
 Temporarily placed aside in favor of the ~faster~ 1/10 scale robocar.
 
 This was probably a mistake. Slower and smaller is better for everything that isn't a race track. I will most likely revisit 1/16 scale shortly.
+
+## Images
+![components before](/assets/img/projects/donkey-car-before.jpg){:.lead width="3024" height"3024" loading="lazy"}
+
+Some of the components before assembly began in earnest. Taken at CRASH Space.
+{:.figcaption}
