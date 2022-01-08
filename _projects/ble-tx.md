@@ -58,12 +58,12 @@ Software-wise, I am now working on a TFT Menu display and hammering out the deta
 Testing the stock radio module to determine what controls what. The green PCB is the stock 2.4G radio module.
 {:.figcaption}
 
-![stock TX testing](/assets/img/projects/ble-tx/ble-tx-before.jpg){:.lead width="3264" height"2448" loading="lazy"}
+![stock TX wiring](/assets/img/projects/ble-tx/ble-tx-before.jpg){:.lead width="3264" height"2448" loading="lazy"}
 
 Stock controller PCB before modification.
 {:.figcaption}
 
-![stock TX testing](/assets/img/projects/ble-tx/ble-tx.jpg){:.lead width="3264" height"2448" loading="lazy"}
+![new wiring version 1](/assets/img/projects/ble-tx/ble-tx.jpg){:.lead width="3264" height"2448" loading="lazy"}
 
 The first attempt at new wiring. Kind of a mess. Pardon the blurry image; this was taken with an ancient phone.
 {:.figcaption}
