@@ -1,36 +1,45 @@
 # If you have a `resume.json` file, copy it into `_data` and delete this file.
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
+# note that the example summary is roughly 600 characters
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "https://via.placeholder.com/240x240"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  name: "Grant Moe"
+  label: "Data Scientist and Roboticist"
+  picture: "assets/img/about-256x256.png"
+  email: "grant@grantmoe.com"
+  phone: "(310) 462-7967"
+  website: "https://grantmoe.com"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    Grant wants to be a mad scientist and/or autonomous vehicle wrangler. 
+    He is excited to leverage artificial intelligence to solve real-world
+    problems. He has most recently attended a data science immersive boot 
+    camp to  build foundational machine learning and neural network modeling 
+    skills.
+
+    His non-work interests range wildly, but most involve tinkering and working
+    with his hands, whether it's using CAD to design tools for use around the
+    house or building custom guitar amplifiers.
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
+    address: "6145 W 77th St"
+    postalCode: "CA 90045"
+    city: "Los Angeles"
     countryCode: "US"
     region: "California"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
+    - network: "Github"
+      username: "GrantMoe"
+      url: "https://github.com/GrantMoe/"
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "Grant Moe"
+      url: "https://www.linkedin.com/in/grantmoe/"
+    - network: "Instagram"
+      username: "grantemoe"
+      url: "https://www.instagram.com/grantemoe/"
+    - network: "Twitter"
+      username: "GrantEMoe"
+      url: "https://twitter.com/GrantEMoe"
+
+
 work:
   - company: "Pied Piper"
     position: "CEO/President"
@@ -55,15 +64,17 @@ volunteer:
     highlights:
       - "Awarded 'Teacher of the Month'"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
-    studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
+  - institution: "University of California, Irvine"
+    area: "Psychology"
+    studyType: "BA"
+    minor: "Information and Computer Science"
+    awardDate: "2013-06-10"
+    # startDate: ""
+    # endDate: "2013-06-01"
+    # gpa: "4.0"
+    # courses:
+      # - "DB1101 - Basic SQL"
+      # - "CS2011 - Java Introduction"
 awards:
   - title: "Digital Compression Pioneer Award"
     date: "2014-11-01"
@@ -91,6 +102,10 @@ skills:
 languages:
   - language: "English"
     fluency: "Native speaker"
+  - language: "Spanish"
+    fluency: "Elementary proficiency"
+  - language: "Norwegian"
+    fluency: "Elementary proficiency"
 interests:
   - name: "Wildlife"
     keywords:

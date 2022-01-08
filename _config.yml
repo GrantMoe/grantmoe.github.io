@@ -53,10 +53,10 @@ menu:
     # url:               /blog/
   - title:             Projects
     url:               /projects/
-  - title: About
-    url: /about/
-  # - title:             Résumé*
-    # url:               /resume/
+  # - title: About
+    # url: /about/
+  - title:             Résumé
+    url:               /resume/
   # - title:             Documentation
     # url:               /docs/
 
