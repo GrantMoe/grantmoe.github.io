@@ -9,10 +9,10 @@ description: >
 # date: 1 Jun 2020
 image: 
   path: /assets/img/projects/donkeysim-client.jpg
-#   srcset: 
-#     1920w: /assets/img/projects/project-title.jpg
-#     960w:  /assets/img/projects/project-title@0,5x.jpg
-#     480w:  /assets/img/projects/project-title@0,25x.jpg
+  srcset: 
+    840w: /assets/img/projects/donkeysim-client.jpg
+    420w:  /assets/img/projects/donkeysim-client@0,5x.jpg
+    210w:  /assets/img/projects/donkeysim-client@0,25x.jpg
 links:
   - title: Github
     url: https://github.com/GrantMoe/donkeysim-client
@@ -36,6 +36,6 @@ In doing so, I gained the ability to record telemetry data in formats other than
 * ASL format - used in my experiments with the [OpenVSLAM](https://github.com/OpenVSLAM-Community/openvslam) Visual Simultaneous Localization and Mapping framework.
 
 ## Status
-![Mini-Monaco Demo Lap with Minimap](/assets/img/projects/donkeysim-monaco-lap.gif)  
+![Mini-Monaco Demo Lap with Minimap](/assets/img/projects/donkeysim-monaco-lap.gif){:.lead width="840" height"454" loading="lazy"}  
   
 Living, breathing, and evolving as needed.
