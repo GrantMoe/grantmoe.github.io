@@ -70,15 +70,19 @@ An extensive summary of previous work in autonomous driving, which stretches bac
 
 The Donkey Car project served as a direct inspiration for my capstone. Donkey Car is an open-source software and hardware framework designed to lower the material costs and programming efforts required to experiment with autonomous driving. It provides software in the form of highly modular and extensible Python libraries, including integrated Keras neural network models. I was aware of the machine learning components of the project, and I had constructed my own Donkey Car, but I had not yet delved deeply into the code.
 
-![Two Donkeys](/assets/img/projects/capstone/two_donkeys.png)  
-<sub>Figure 1: A Donkey Car (left) and the author's Donkey Car (right)</sub>
+![Two Donkeys](/assets/img/projects/capstone/two_donkeys.jpg){:.lead width="1800" height"800" loading="lazy"}
+
+Figure 1: A Donkey Car (left) and the author's Donkey Car (right)
+{:.figcaption}
 
 <span id = 'methods'></span>
 
 ## Methodology  <!--- [^](#toc) -->
 
-![Demo lap animated gif](/assets/img/projects/capstone/demo_lap.gif)  
-<sub>Figure 2: Demo lap recording, overhead map and chase view.</sub>
+![Demo lap animated gif](/assets/img/projects/capstone/demo_lap.gif){:.lead width="840" height"454" loading="lazy"}
+
+Figure 2: Demo lap recording, overhead map and chase view.
+{:.figcaption}
 
 A data was collected by manually driving a race car around a simulated track while recording video and telemetry output. Training and test sets were built from this data, which were then scaled with either a min-max scaler or a standard scaler, and used to train a neural network. The neural network used two inputs. Images were fed into several convolutional neural network (CNN) layers, then flattened. In parallel to the image CNN layers, telemetry data was input into several basic feed-forward dense layers. The output of the flattened image and telemetry data layers was then concatenated and sent through a few more dense layers, and output either in a single two-unit linear-activation dense layer, or in two parallel single-unit linear-activation dense layers.
 
@@ -122,14 +126,21 @@ Data preparation and modeling took place in a collection of Jupyter notebooks, p
 Each of the remaining 9 models completed at least one lap in at least two of five trials, and each completed more than one lap at least once. The average number of laps completed by the 9 successful models over all five trials is ~1.96. The average trial laps for all 12 models is ~1.67.
 
 ### Track Performance
-![manual trajectory superimposed on automated trajectory](/assets/img/projects/capstone/auto_manual_trajectories_overlaid.png)  
-<sub> Figure 3: Due to the excessive throttle applied by autonomous driving models, cars were carried further both into and out of turns, resulting in trajectories that drifted closer to the track's inside walls. The cars were not able to negotiate turns at the shallow approach angles that resulted from this.</sub>
+![manual trajectory superimposed on automated trajectory](/assets/img/projects/capstone/auto_manual_trajectories_overlaid.jpg){:.lead width="851" height"749" loading="lazy"}
 
-![manual vs autonomous trajectories, colormap: speed](/assets/img/projects/capstone/colormaps_speed.png)  
-<sub> Figure 4: In general, models carried more speed into each corner, which, coupled with shallower lines, resulted in overshooting turns and colliding with walls.</sub>
+Figure 3: Due to the excessive throttle applied by autonomous driving models, cars were carried further both into and out of turns, resulting in trajectories that drifted closer to the track's inside walls. The cars were not able to negotiate turns at the shallow approach angles that resulted from this.
+{:.figcaption}
 
-![manual vs autonomous trajectories, colormap: throttle](/assets/img/projects/capstone/colormaps_throttle.png)  
-<sub> Figure 5: Some of the models attempted to brake, but did not do so early enough to overcome poor trajectories and excessive speed.</sub>  
+![manual vs autonomous trajectories, colormap: speed](/assets/img/projects/capstone/colormaps_speed.jpg){:.lead width="1130" height"468" loading="lazy"}
+
+Figure 4: In general, models carried more speed into each corner, which, coupled with shallower lines, resulted in overshooting turns and colliding with walls.
+{:.figcaption}
+
+
+![manual vs autonomous trajectories, colormap: throttle](/assets/img/projects/capstone/colormaps_throttle.jpg){:.lead width="1130" height"468" loading="lazy"}
+
+Figure 5: Some of the models attempted to brake, but did not do so early enough to overcome poor trajectories and excessive speed.
+{:.figcaption}
 
 ### Model Metrics
 
@@ -148,23 +159,33 @@ Each of the remaining 9 models completed at least one lap in at least two of fiv
 | **176** |32|2|Standard|pos_x, pos_z, speed, yaw|8.644|46.79|11.74|0.01103|0.06631|
 | **178** |128|2|Standard|pos_x, pos_z, speed, yaw|22.004|43.99|12.61|0.01030|0.06306|  
 
-<font size="1">1. Includes incomplete laps</font>  
-<font size="1">2. Seconds, complete laps only</font>  
-<font size="1">3. Meters per second, complete laps only</font>  
+<sup><sup>1. Includes incomplete laps</sup></sup>  
+<sup><sup>2. Seconds, complete laps only</sup></sup>  
+<sup><sup>3. Meters per second, complete laps only</sup></sup>  
+{:.note}
 
-![bar chart: total laps per model](/assets/img/projects/capstone/total_laps_per_model.png)  
-<sub> Figure 6: This plot demonstrates the disparity in models' performance</sub>
+
+![bar chart: total laps per model](/assets/img/projects/capstone/total_laps_per_model.png){:.lead width="989" height"490" loading="lazy"}
+
+Figure 6: This plot demonstrates the disparity in models' performance
+{:.figcaption}
     
-![box plot: total laps vs scaler and outputs](/assets/img/projects/capstone/total_laps_box_plot.png)  
-<sub> Figure 7: Standard Scaler appears to result in models that are capable of driving further, but output configuration does not seem to make a significant difference.</sub>
+![box plot: total laps vs scaler and outputs](/assets/img/projects/capstone/total_laps_box_plot.png){:.lead width="695" height"347" loading="lazy"}
 
-![box plot: average speed vs scaler and outputs](/assets/img/projects/capstone/average_speed_box_plot.png)  
-<sub> Figure 8: Neither scaler type nor output configuration appears to play much of a role in average speed.</sub>
+Figure 7: Standard Scaler appears to result in models that are capable of driving further, but output configuration does not seem to make a significant difference.
+{:.figcaption}
+
+![box plot: average speed vs scaler and outputs](/assets/img/projects/capstone/average_speed_box_plot.png){:.lead width="695" height"347" loading="lazy"}
+
+Figure 8: Neither scaler type nor output configuration appears to play much of a role in average speed.
+{:.figcaption}
 
 I had hoped to compare the Keras model metrics to on-track performance, but the relative lack of data made that impossible; there simply wasn't enough information to draw conclusions. The following pairwise plot illustrates the sparsity.  
 
-![Seaborn pairplot](/assets/img/projects/capstone/sparse_pairwise_data.png)  
-<sub> Figure 9: Pairwise plot of metrics and performance measures</sub>  
+![Seaborn pairplot](/assets/img/projects/capstone/sparse_pairwise_data.png){:.lead width="1040" height"1039" loading="lazy"}  
+
+Figure 9: Pairwise plot of metrics and performance measures
+{:.figcaption}
 
 No model performed at the level required for real-world racing safety. With one exception, every lap driven by even the most successful models included at least one instance of high-speed contact with a wall. This would not be acceptable for a real car on an actual, physical track.
 
