@@ -42,3 +42,13 @@ Manual driving is handled by my custom Bluetooth Low Energy transmitter.
 
 ## Status
 Under active development.
+
+## Gallery
+
+<video controls="true" allowfullscreen="true">
+  <source src="/assets/vid/robocar-wheels.webm" type="video/webm">
+  <source src="/assets/vid/robocar-wheels.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<br> Nailed it.
+{:.figcaption}
