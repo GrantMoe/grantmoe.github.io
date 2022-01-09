@@ -4,10 +4,10 @@ title: Welcome
 cover: true
 # sitemap: false
 selected_projects:
-  - _projects/donkeycar.md
   - _projects/robocar-tb05.md
   - _projects/capstone-project.md
   - _projects/donkeysim-client.md
+  - _projects/donkeycar.md
 projects_page: projects.md
 # featured: false
 ---
