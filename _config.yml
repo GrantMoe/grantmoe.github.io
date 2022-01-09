@@ -25,7 +25,8 @@ title: Grant Moe #                Hydejack
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Data Science ⬩ Software ⬩ Robots ⬩ Doofus
+  Personal website for Grant Moe, an aspiring mad scientist from Los Angeles
+  who is interested in data science, AI, robotics, and autonomous vehicles.
 
 # A shorter description for the sidebar.
 tagline: Data Science ⬩ Software ⬩ Robots #              Change `tagline` in `_config.yml`
