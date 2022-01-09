@@ -7,11 +7,11 @@ description: >
   software. Built on a Tamiya TB-05 Pro chassis kit.
 date: 8 Jan 2022
 image: 
-  path: /assets/img/projects/robocar-tb05.jpg
+  path: /assets/img/projects/tb05/robocar-tb05.jpg
   srcset: 
-    4032w: /assets/img/projects/robocar-tb05.jpg
-    2016w:  /assets/img/projects/robocar-tb05@0,5x.jpg
-    1008w:  /assets/img/projects/robocar-tb05@0,25x.jpg
+    4032w: /assets/img/projects/tb05/robocar-tb05.jpg
+    2016w:  /assets/img/projects/tb05/robocar-tb05@0,5x.jpg
+    1008w:  /assets/img/projects/tb05/robocar-tb05@0,25x.jpg
 links:
   - title: Github
     url: https://github.com/GrantMoe/robocar-py
@@ -51,4 +51,9 @@ Under active development.
   Your browser does not support the video tag.
 </video>
 <br> Nailed it.
+{:.figcaption}
+
+![off-road version](/assets/img/projects/tb05/tb05-offroad.jpg){:.lead width="4032" height"3024" loading="lazy"}
+
+Previous iteration with RC buggy wheels and omni-directional camera lens.
 {:.figcaption}
