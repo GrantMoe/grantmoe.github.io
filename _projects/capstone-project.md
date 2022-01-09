@@ -43,6 +43,7 @@ In this project I attempted to train a neural network how to drive a race car ar
 1. [Results](#results)
 1. [Discussion](#discussion)
 1. [Conclusion](#conclusion)
+1. [Media](#media)
 1. [References](#sources)
 
 <span id = 'acknowledgements'></span>
@@ -220,6 +221,20 @@ The project had some negatives. By the time I recognized the error of some of my
 On the other hand, I cannot overstate how much I enjoyed delving into how my models performed. Emergent behavior of embodied intelligent agents is part of what drew me to machine learning in the first place; I had once aspired to a graduate degree in cognitive robotics, and it remains a major interest of mine.
 
 Working on this project has left me in possession of a highly automated machine learning pipeline, and now that I am free of my imaginary full-scale racing team, I can employ it while using Donkey Gym as it was designed to be used. I intend to use the simulated Circuit Launch track to prepare for in-person competition on its real-world counterpart in Oakland.
+
+
+
+<span id = 'media'></span>
+
+## Media <!-- [[^]](#toc) -->
+
+<video controls="true" allowfullscreen="true">
+  <source src="/assets/vid/capstone-first-try.webm" type="video/webm">
+  <source src="/assets/vid/capstone-first-try.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<br> First attempt at autonomy.
+{:.figcaption}
 
 <span id = 'sources'></span>
 
