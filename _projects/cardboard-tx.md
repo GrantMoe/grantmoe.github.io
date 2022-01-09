@@ -5,7 +5,7 @@ caption: Extremely DIY Quadcopter Transmitter
 description: >
   FlySky guts, FrSky hall effect gimbals, random found anetnnae/hardware.
   Ancient OWC shipping box. Duct-taped Lipo battery. Inner/outer beauty. Perfection.
-# date: 3 Jan 2022
+date: 3 Jan 2022
 image: 
   path: /assets/img/projects/cardboard-tx.jpg
   srcset: 

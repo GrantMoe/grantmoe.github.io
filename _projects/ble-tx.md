@@ -7,7 +7,7 @@ description: >
   Bluetooth Low Energy. Removes the need for a separate receiver module, 
   interacting directly with Linux through the Human Interface Device (HID) 
   protocol. 
-date: 1 Jun 2021
+date: 4 Jan 2022
 image: 
   path: /assets/img/projects/ble-tx/ble-tx.jpg
   srcset: 

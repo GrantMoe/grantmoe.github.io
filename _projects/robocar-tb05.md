@@ -5,7 +5,7 @@ caption: 1/10 Scale Autonomous Racer
 description: >
   Bigger, faster, and meaner than a Donkey Car, running on fully custom
   software. Built on a Tamiya TB-05 Pro chassis kit.
-date: 1 Jun 2021
+date: 8 Jan 2022
 image: 
   path: /assets/img/projects/robocar-tb05.jpg
   srcset: 

@@ -4,7 +4,7 @@ title: 'Donkey Car'
 caption: 1/16th Scale Autonomous Car
 description: >
   This is my Donkey Car. There are many like it. This one is mine.
-# date: 3 Jan 2022
+date: 5 Jan 2022
 image: 
   path: /assets/img/projects/donkey-car-big.jpg
   srcset:

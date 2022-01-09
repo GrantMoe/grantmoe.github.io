@@ -5,7 +5,7 @@ caption: DIY Autonomous Flight Testbed
 description: >
   Onshape-designed, CNC-built 5" quadcopter for use as autonomous flight 
   experiment platform. 
-# date: 3 Jan 2022
+date: 4 Jan 2022
 image: 
   path: /assets/img/projects/diy-quad.jpg
   srcset: 

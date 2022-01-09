@@ -6,7 +6,7 @@ description: >
   Using both my own custom Keras neural nets and those provided by Donkey
   Car to teach simulated race cars how to drive laps around a track. Lots
   of crashing.
-# date: 1 Jun 2020
+date: 7 Jan 2022
 image: 
   path: /assets/img/projects/capstone/capstone-project.jpg
   srcset: 

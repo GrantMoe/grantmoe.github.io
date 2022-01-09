@@ -4,7 +4,7 @@ title: 'Crawler Bot'
 caption: 1/8th Scale Autonomous Rock Crawler
 description: >
   1/8 scale RC Rock Crawler controlled by an ODROID C2 and Parallax Propeller
-# date: 3 Jan 2022
+date: 2 Jan 2022
 image: 
   path: /assets/img/projects/crawler-bot.jpg
   srcset: 

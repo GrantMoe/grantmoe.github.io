@@ -6,7 +6,7 @@ description: >
   Python client that sends driving inputs from an XBox controller or a 
   self-driving neural network model. Records video and telemetry data 
   for training and posterity.
-# date: 1 Jun 2020
+date: 6 Jan 2022
 image: 
   path: /assets/img/projects/donkeysim-client.jpg
   srcset: 
