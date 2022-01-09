@@ -1,6 +1,6 @@
 ---
 layout: welcome
-title: Welcome
+title: Welcome!
 cover: true
 # sitemap: false
 selected_projects:
@@ -10,13 +10,13 @@ selected_projects:
   - _projects/donkeycar.md
 projects_page: projects.md
 # featured: false
+image: /assets/img/og-img.png
 ---
 
 
 Hello and welcome to my site! I'm Grant.
 
-Soon there will be blog posts! Until then, see below for what I am doing 
-and have done.
+Soon there will be blog posts! Until then, see below for what I'm up to.
 
 ## Projects
 
