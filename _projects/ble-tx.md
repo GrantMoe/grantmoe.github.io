@@ -11,7 +11,7 @@ date: 4 Jan 2022
 image: 
   path: /assets/img/projects/ble-tx/ble-tx.jpg
   srcset: 
-    3264w: /assets/img/projects/project-title.jpg
+    3264w: /assets/img/projects/ble-tx.jpg
     1632w:  /assets/img/projects/ble-tx/ble-tx@0,5x.jpg
     816w:  /assets/img/projects/ble-tx/ble-tx@0,25x.jpg
 links:
