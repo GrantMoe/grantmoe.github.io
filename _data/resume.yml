@@ -18,7 +18,7 @@ basics:
 
     His non-work interests range wildly but mostly involve tinkering and working
     with his hands, whether it's using CAD to design tools for use around the
-    house or building custom guitar amplifiers.
+    house or building custom guitar speaker cabinets.
   location:
     # address: "6145 W 77th St"
     # postalCode: "CA 90045"
@@ -152,7 +152,7 @@ interests:
       - "DIY Robocars"
       - "Guitar Amps"
 # references:
-#   - name: "Erlich Bachman"
+#   - name: "Firstname Lastname"
 #     reference: >
 #       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
 #       Company proved that he will be a valuable addition to any company.
