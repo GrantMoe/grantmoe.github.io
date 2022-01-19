@@ -55,7 +55,7 @@ Software-wise, I am now working on a TFT Menu display and hammering out the deta
 ## Images
 ![stock TX testing](/assets/img/projects/ble-tx/ble-tx-testing.jpg){:.lead width="2448" height"2448" loading="lazy"}
 
-Testing the stock radio module to determine what controls what. The green PCB is the stock 2.4G radio module.
+Establishing the output of the stock transmitter based on the signals sent to the stock receiver.
 {:.figcaption}
 
 ![stock TX wiring](/assets/img/projects/ble-tx/ble-tx-before.jpg){:.lead width="3264" height"2448" loading="lazy"}
