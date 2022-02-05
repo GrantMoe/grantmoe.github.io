@@ -29,7 +29,7 @@ description:           >
   who is interested in data science, AI, robotics, and autonomous vehicles.
 
 # A shorter description for the sidebar.
-tagline: Data Science ⬩ Software ⬩ Robots #              Change `tagline` in `_config.yml`
+tagline: Data Science - Software - Robots #              Change `tagline` in `_config.yml`
 
 # A list of keywords for your blog
 keywords:              []
