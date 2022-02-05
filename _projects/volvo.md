@@ -57,4 +57,4 @@ I also get to fix it!
 * reupholster driver door arm rest
 * pay to get some dings fixed
 
-## Images
+<!-- ## Images -->

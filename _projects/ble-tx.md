@@ -53,17 +53,17 @@ Very much in progress. Currently stymied by a hardware issue: the ground wire fo
 Software-wise, I am now working on a TFT Menu display and hammering out the details of what info needs to be sent to the robocar for full functionality.
 
 ## Images
-![stock TX testing](/assets/img/projects/ble-tx/ble-tx-testing.jpg){:.lead width="2448" height"2448" loading="lazy"}
+![stock TX testing](/assets/img/projects/ble-tx/ble-tx-testing.jpg){:.lead width="1500" height"1125" loading="lazy"}
 
 Establishing the output of the stock transmitter based on the signals sent to the stock receiver.
 {:.figcaption}
 
-![stock TX wiring](/assets/img/projects/ble-tx/ble-tx-before.jpg){:.lead width="3264" height"2448" loading="lazy"}
+![stock TX wiring](/assets/img/projects/ble-tx/ble-tx-before.jpg){:.lead width="1500" height"1125" loading="lazy"}
 
 Stock controller PCB before modification.
 {:.figcaption}
 
-![new wiring version 1](/assets/img/projects/ble-tx/ble-tx.jpg){:.lead width="3264" height"2448" loading="lazy"}
+![new wiring version 1](/assets/img/projects/ble-tx/ble-tx-new-wiring-1.jpg){:.lead width="1500" height"1125" loading="lazy"}
 
 The first attempt at new wiring. Kind of a mess. Pardon the blurry image; this was taken with an ancient phone.
 {:.figcaption}

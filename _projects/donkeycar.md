@@ -6,11 +6,11 @@ description: >
   This is my Donkey Car. There are many like it. This one is mine.
 date: 5 Jan 2022
 image: 
-  path: /assets/img/projects/donkey-car-big.jpg
+  path: /assets/img/projects/donkey-car/donkey-car-big.jpg
   srcset:
-    1500w: /assets/img/projects/donkey-car.jpg
-    750w:  /assets/img/projects/donkey-car@0,5x.jpg
-    375w:  /assets/img/projects/donkey-car@0,25x.jpg
+    1500w: /assets/img/projects/donkey-car/donkey-car.jpg
+    750w:  /assets/img/projects/donkey-car/donkey-car@0,5x.jpg
+    375w:  /assets/img/projects/donkey-car/donkey-car@0,25x.jpg
 links:
   - title: Donkey Car Site
     url: https://donkeycar.com/
@@ -38,7 +38,7 @@ Temporarily placed aside in favor of the ~faster~ 1/10 scale robocar.
 This was probably a mistake. Slower and smaller is better for everything that isn't a race track. I will most likely revisit 1/16 scale shortly.
 
 ## Images
-![components before](/assets/img/projects/donkey-car-before.jpg){:.lead width="3024" height"3024" loading="lazy"}
+![components before](/assets/img/projects/donkey-car/donkey-car-before.jpg){:.lead width="1500" height"1125" loading="lazy"}
 
 Some of the components before assembly began in earnest. Taken at CRASH Space.
 {:.figcaption}

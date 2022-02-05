@@ -53,7 +53,7 @@ Under active development.
 <br> Nailed it.
 {:.figcaption}
 
-![off-road version](/assets/img/projects/tb05/tb05-offroad.jpg){:.lead width="4032" height"3024" loading="lazy"}
+![off-road version](/assets/img/projects/tb05/tb05-offroad.jpg){:.lead width="1500" height"1125" loading="lazy"}
 
 Previous iteration with RC buggy wheels and omni-directional camera lens.
 {:.figcaption}
