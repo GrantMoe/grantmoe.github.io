@@ -130,7 +130,7 @@ skills:
     #   - "HTML"
     #   - "CSS"
     #   - "Javascript"
-  - name: "C++"
+  - name: "C++/Arduino"
     level: "Amateur"
     # keywords:
       # - "Mpeg"
