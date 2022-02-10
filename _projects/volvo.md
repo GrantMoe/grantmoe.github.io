@@ -47,14 +47,15 @@ I also get to fix it!
 * replace door wiring harness connector
 * replace coolant hoses
 * replace burnt-out headlight bulbs
+* replace a side-view mirror destroyed by a car wash (long story)
+* replace door trim destroyed by car wash (see above)
+
 
 ## Things I've Yet to Do
 
-* replace a side-view mirror destroyed by a car wash (long story)
-* replace door flash destroyed by car wash (see above)
 * redo the headlining
 * find out why the radio isn't working
 * reupholster driver door arm rest
-* pay to get some dings fixed
+* get some dings fixed
 
 <!-- ## Images -->
