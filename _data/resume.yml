@@ -138,13 +138,13 @@ skills:
       # - "GIF"
   - name: "Machine Learning"
     level: "Amateur"
-languages:
-  - language: "English"
-    fluency: "Native speaker"
-  - language: "Spanish"
-    fluency: "Elementary proficiency"
-  - language: "Norwegian"
-    fluency: "Elementary proficiency"
+#languages:
+#  - language: "English"
+#    fluency: "Native speaker"
+#  - language: "Spanish"
+#    fluency: "Elementary proficiency"
+#  - language: "Norwegian"
+#    fluency: "Elementary proficiency"
 interests:
   - name: "Making"
     keywords:
