@@ -4,21 +4,13 @@
 # note that the example summary is roughly 600 characters
 basics:
   name: "Grant Moe"
-  label: "Data Scientist and Roboticist"
+  label: "Tech Doofus"
   picture: "assets/img/about-256x256.png"
   email: "grant@grantmoe.com"
   # phone: "(310) 462-7967"
   website: "https://grantmoe.com"
   summary: >
-    Grant wants to be a mad scientist and/or autonomous vehicle wrangler. 
-    He is excited to leverage artificial intelligence to solve real-world
-    problems. He has most recently attended a data science immersive boot 
-    camp to  build foundational machine learning and neural network modeling 
-    skills.
-
-    His non-work interests range wildly but mostly involve tinkering and working
-    with his hands, whether it's using CAD to design tools for use around the
-    house or building custom guitar speaker cabinets.
+    Grant is a mad scientist at heart.
   location:
     # address: "6145 W 77th St"
     # postalCode: "CA 90045"
@@ -39,13 +31,41 @@ basics:
       username: "GrantEMoe"
       url: "https://twitter.com/GrantEMoe"
 work:
+  - company: "Avigilon Alta (Motorola Solutions)"
+    position: "Hardware QA Test Engineer"
+    website: "https://www.avigilon.com/access-control"
+    startDate: "2024-05-01"
+    endDate: ""
+    # highlights:
+      # - "Executed and documented failure analysis on a multi-year RMA backlog."
+      # - "Kickstarted a Jupyter-based datasciecnce pipeline to track and present RMA trends." 
+
+
+  - company: "Avigilon Alta (Motorola Solutions)"
+    position: "Quality Assurance Analyst"
+    website: "https://www.avigilon.com/access-control"
+    startDate: "2024-01-01"
+    endDate: "2023-03-31"
+    # highlights:
+      # - "Executed and documented failure analysis on a multi-year RMA backlog."
+      # - "Kickstarted a Jupyter-based datasciecnce pipeline to track and present RMA trends." 
+
+  - company: "Avigilon Alta (Motorola Solutions)"
+    position: "Repair Technician (Contract)"
+    website: "https://www.avigilon.com/access-control"
+    startDate: "2023-08-01"
+    endDate: "2023-12-31"
+    # highlights:
+      # - "Executed and documented failure analysis on a multi-year RMA backlog."
+      # - "Kickstarted a Jupyter-based datasciecnce pipeline to track and present RMA trends." 
+  
   - company: "Freelance"
     position: "Electronics Fabricator and Creative Technologist"
     startDate: "2018-10-01"
-    endDate: ""
-    highlights:
-      - "Worked as a contractor for VTProDesign on projects including OpenPath (acquired by Motorola) keyless entry systems and lighting for Britney Spears The Zone 30,000 sq ft installation in LA (featured in The New York Times, CNN, and Forbes)"
-      - "Manufactured OpenPath (acquired by Motorola) keyless entry demo units."
+    endDate: "2023-08-01"
+    # highlights:
+      # - "Worked as a contractor for VTProDesign on projects including OpenPath (acquired by Motorola) keyless entry systems and lighting for Britney Spears The Zone 30,000 sq ft installation in LA (featured in The New York Times, CNN, and Forbes)"
+      # - "Manufactured OpenPath (acquired by Motorola) keyless entry demo units."
 
   - company: "Barnes & Noble"
     position: "Bookseller/Shipper/Receiver"
@@ -53,21 +73,21 @@ work:
     endDate: "2018-10-01"
     # summary: >
       # "As a bookseller, greeted and established rapport with customers, identified their needs, and gave recommendations, ordering product as necessary. As a shipper/receiver, worked (often solo) in the stock room to keep the product moving on and off the floor."
-    highlights:
-    - "Tracked inventory and managed stock"
-    - "Processed and documented all incoming and outgoing shipments"
-    - "Boosted product sorting efficiency by optimizing stockroom layout"
+    # highlights:
+    # - "Tracked inventory and managed stock"
+    # - "Processed and documented all incoming and outgoing shipments"
+    # - "Boosted product sorting efficiency by optimizing stockroom layout"
   - company: "Cognitive Anteater Robotics"
     position: "Volunteer Lab Assistant"
     website: "https://www.socsci.uci.edu/~jkrichma/CARL/"
     startDate: "2013-06-01"
     endDate: "2013-09-01"
-    summary: >
-      "In the Cognitive Anteater Robotics Laboratory (CARL) at the University of California, Irvine, we are designing robotic systems whose behaviors are guided by large-scale simulations of the mammalian brain. Because these simulated nervous systems are embodied on a robot, they provide a powerful tool for studying brain function."
-    highlights:
-      - "Developed control and telemetry software for an autonomous Android robot"
-      - "Created a custom C++ Robot Operating System (ROS) module linking Galaxy S3 robot brain to Ubuntu laptop over peer-to-peer UDP socket"
-      - "Used ROS to build a graphical user interface and to implement RatSLAM, a biologically-inspired simultaneous localization and mapping algorithm based on rodent hippocampi."
+    # summary: >
+      # "In the Cognitive Anteater Robotics Laboratory (CARL) at the University of California, Irvine, we are designing robotic systems whose behaviors are guided by large-scale simulations of the mammalian brain. Because these simulated nervous systems are embodied on a robot, they provide a powerful tool for studying brain function."
+    # highlights:
+      # - "Developed control and telemetry software for an autonomous Android robot"
+      # - "Created a custom C++ Robot Operating System (ROS) module linking Galaxy S3 robot brain to Ubuntu laptop over peer-to-peer UDP socket"
+      # - "Used ROS to build a graphical user interface and to implement RatSLAM, a biologically-inspired simultaneous localization and mapping algorithm based on rodent hippocampi."
 volunteer:
   - organization: "CRASH Space"
     position: "Board Member"
@@ -77,14 +97,14 @@ volunteer:
     summary: "CRASH Space non-profit organization located in Los Angeles and run by volunteers. It is a part of the growing global hackerspace movement. We are a collection of hackers, programmers, builders, makers, and artists. We promote science, technology, engineering, arts, and mathematics (STEAM) by teaching classes, participating in events, providing on-line resources, and by running a shared workshop. Our members use the space to work on their projects, share ideas, and help each other create whatever they envision."
     highlights:
       - "Hosts monthly robotics and neuroscience interest groups"
-  - organization: "DIY Robocars Los Angeles"
-    position: "Organizer"
-    website: "https://www.meetup.com/DIY-Robocars-Los-Angeles/"
-    startDate: "2021-03-05"
-    endDate: ""
-    summary: "This is the Los Angeles event companion to the DIY Robocars site, which is for people who want to make and race DIY autonomous cars of any size, from tiny 16th scale to full-size (we don’t include go-karts, yet). Meetups are opportunities to hack, compete, and show and tell. Meetups will typically be in a space where 1/10 cars can be run indoors and/or have nearby parking lots where 1/10th scale self-driving cars (and go-karts in the future) can be raced or just tested in driverless mode."
-    highlights:
-      - "Coordinates and plans meetups for group of 88 DIY autonomous racing enthusiasts"
+  # - organization: "DIY Robocars Los Angeles"
+    # position: "Organizer"
+    # website: "https://www.meetup.com/DIY-Robocars-Los-Angeles/"
+    # startDate: "2021-03-05"
+    # endDate: ""
+    # summary: "This is the Los Angeles event companion to the DIY Robocars site, which is for people who want to make and race DIY autonomous cars of any size, from tiny 16th scale to full-size (we don’t include go-karts, yet). Meetups are opportunities to hack, compete, and show and tell. Meetups will typically be in a space where 1/10 cars can be run indoors and/or have nearby parking lots where 1/10th scale self-driving cars (and go-karts in the future) can be raced or just tested in driverless mode."
+    # highlights:
+      # - "Coordinates and plans meetups for group of 88 DIY autonomous racing enthusiasts"
 
 education:
   - institution: "General Assembly Remote Data Science Immersive"
@@ -138,13 +158,13 @@ skills:
       # - "GIF"
   - name: "Machine Learning"
     level: "Amateur"
-languages:
-  - language: "English"
-    fluency: "Native speaker"
-  - language: "Spanish"
-    fluency: "Elementary proficiency"
-  - language: "Norwegian"
-    fluency: "Elementary proficiency"
+#languages:
+#  - language: "English"
+#    fluency: "Native speaker"
+#  - language: "Spanish"
+#    fluency: "Elementary proficiency"
+#  - language: "Norwegian"
+#    fluency: "Elementary proficiency"
 interests:
   - name: "Making"
     keywords:
