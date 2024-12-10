@@ -31,7 +31,7 @@ basics:
       username: "GrantEMoe"
       url: "https://twitter.com/GrantEMoe"
 work:
-  - company: "Avigilon Alta Access (Motorola Solutions)"
+  - company: "Avigilon Alta (Motorola Solutions)"
     position: "Hardware QA Test Engineer"
     website: "https://www.avigilon.com/access-control"
     startDate: "2024-05-01"
@@ -41,7 +41,7 @@ work:
       # - "Kickstarted a Jupyter-based datasciecnce pipeline to track and present RMA trends." 
 
 
-  - company: "Avigilon Alta Access (Motorola Solutions)"
+  - company: "Avigilon Alta (Motorola Solutions)"
     position: "Quality Assurance Analyst"
     website: "https://www.avigilon.com/access-control"
     startDate: "2024-01-01"
@@ -50,7 +50,7 @@ work:
       # - "Executed and documented failure analysis on a multi-year RMA backlog."
       # - "Kickstarted a Jupyter-based datasciecnce pipeline to track and present RMA trends." 
 
-  - company: "Avigilon Alta Access (Motorola Solutions)"
+  - company: "Avigilon Alta (Motorola Solutions)"
     position: "Repair Technician (Contract)"
     website: "https://www.avigilon.com/access-control"
     startDate: "2023-08-01"
